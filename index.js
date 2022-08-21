@@ -1,7 +1,7 @@
 // The writer determines whether the following variables are of type array.
 var a = '[a, b, c, d]';
 var b = [1, 2, 3, 4];
-console.log("#1:")
+console.log("\n#1:")
 console.log(Array.isArray(a));
 console.log(Array.isArray(b));
 
@@ -10,14 +10,14 @@ console.log(Array.isArray(b));
 // Write a program that multiplies each entry in the following array by 2。
 var a = [1, 2, 3, 4, 5];
 // TODO should output [2,4,6,8,10]
-console.log("#2:")
+console.log("\n#2:")
 a.forEach(element => {
     console.log(element * 2);
 });
 
 // Write the program, according to the following requirements output results.
 var colors = ["Red", "Green", "White", "Black"];
-console.log("#3:")
+console.log("\n#3:")
 //case 1 output: 'Red Green White Black'
 var output = '';
 colors.forEach(element => {
@@ -40,7 +40,7 @@ console.log(output);
 
 // Write a program to sort the Numbers in the following array from largest to smallest.
 var a = [5, 1, 8, 10, 4, 3, 2, 6, 7, 9];
-console.log("#3:")
+console.log("\n#4:")
 var head = 0;
 var tail = 1;
 var iterations = 0;
@@ -62,7 +62,7 @@ while (iterations <= a.length * a.length) {
 console.log(a);
 // Program to find the most frequent element in the following array.
 var a = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-console.log("#4:")
+console.log("\n#4:")
 //TODO should output: 'a'
 for (let index = 0; index < a.length; index++) { 
     var uniqueValues = Array.from(new Set(a));
